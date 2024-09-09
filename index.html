@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Learning Portal - Home</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container text-center">
+    <h1>Welcome to the Student Learning Portal</h1>
+    <div class="row">
+        <div class="col">
+            <button onclick="openStudentInformation()" class="btn btn-primary btn-lg mr-2">Student Information</button>
+            <button onclick="openMCQTest()" class="btn btn-primary btn-lg">MCQ Test</button>
+        </div>
+    </div>
+</div>
+<script>
+    function openStudentInformation() {
+        window.location.href = 'studentinformation.html'; // Redirect to student information page
+    }
+
+    function openMCQTest() {
+        window.location.href = 'mcq.html'; // Redirect to MCQ test page
+    }
+</script>
+</body>
+</html>
