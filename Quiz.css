@@ -1,0 +1,103 @@
+/* Reset some default browser styling */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #22223b;
+    background-color: #f2e9e4;
+    line-height: 1.6;
+    padding: 0 5%;
+}
+
+/* Container styling */
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h1 {
+    color: #033913;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 3em; /* Increased font size for the title */
+    font-weight: 700;
+}
+
+
+/* Form and questions styling */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.question {
+    border: 1px solid #c9ada7;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #93d392;
+    transition: background-color 0.3s ease;
+}
+
+.question:hover {
+    background-color: #c16666;
+}
+
+.question h2 {
+    font-size: 1.25em;
+    color: #033913;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Input and label styling */
+input[type="radio"] {
+    margin-right: 12px;
+    accent-color: #4a4e69;
+}
+
+label {
+    color: #22223b;
+    margin-right: 12px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+/* Button styling */
+button {
+    background-color: #22223b;
+    color: #f2e9e4;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #4a4e69;
+    transform: translateY(-2px);
+}
+
+/* Results section styling */
+#results {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #22223b;
+    font-weight: 600;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
